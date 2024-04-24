@@ -18,6 +18,7 @@ fun gradeFor(m1: Int, m2: Int, m3: Int, m4: Int, m5: Int): String {
     } else {
         return "Fail"
     }
+
 }
 
 fun main() {
