@@ -1,17 +1,16 @@
 import com.faangx.ktp.basics.StageOfLifeMiniApp
 
 fun stageOfLife(age: Int): String {
-    if (age < 3) {
-        return "Infancy"
+    return if (age < 3) {
+        "Infancy"
     } else if (age < 12) {
-        return "Childhood"
+        "Childhood"
     } else if (age < 18) {
-        return "Teenage"
+        "Teenage"
     } else if (age < 60) {
-        return "Adulthood"
+        "Adulthood"
     } else {
-        return "Old age"
-
+        "Old age"
     }
 }
 
