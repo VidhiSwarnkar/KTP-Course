@@ -13,7 +13,7 @@ fun gradeFor(m1: Int, m2: Int, m3: Int, m4: Int, m5: Int): String {
         return "C"
     } else if (average >= 5f && average < 6f) {
         return "D"
-    } else if (average >= 4f && average < 5f) {
+    } else if (average >= 3f && average < 5f) {
         return "E"
     } else {
         return "Fail"
