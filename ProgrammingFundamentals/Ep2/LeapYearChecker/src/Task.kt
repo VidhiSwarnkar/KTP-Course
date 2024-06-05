@@ -11,3 +11,7 @@ fun isLeapYear(year: Int): Boolean {
 fun LeapYearCheckerDemo() {
     LeapYearCheckerMiniApp(::isLeapYear)
 }
+
+fun main() {
+    LeapYearCheckerMiniApp(::isLeapYear)
+}

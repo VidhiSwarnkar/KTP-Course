@@ -6,3 +6,4 @@ fun greet(name: String): String {
 
 fun main() {
     GreetingMiniApp(::greet)
+}

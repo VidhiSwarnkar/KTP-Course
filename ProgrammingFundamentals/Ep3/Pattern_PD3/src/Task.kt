@@ -1,5 +1,5 @@
-import com.faangx.ktp.patterns.single.PatternMiniApp
 import kotlinx.coroutines.joinAll
+import com.faangx.ktp.patterns.single.PatternLinesAndTwoCharsBasedMiniApp
 
 fun printPattern(lines: Int, char1: Char, char2: Char) {
     repeat(lines) {i->
@@ -15,5 +15,5 @@ fun printPattern(lines: Int, char1: Char, char2: Char) {
 }
 
 fun main() {
-    PatternMiniApp("PD3", ::printPattern)
+    PatternLinesAndTwoCharsBasedMiniApp("PD3", ::printPattern)
 }
