@@ -5,7 +5,7 @@ fun getPerimeterOfRectangle(l: Int, b: Int): Int {
 }
 
 fun getAreaOfRectangle(l: Int, b: Int): Int {
-	return l * b
+	return l * b 
 }
 
 
