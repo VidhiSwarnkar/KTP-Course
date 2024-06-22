@@ -2,37 +2,44 @@ import kotlin.math.roundToInt
 import com.faangx.ktp.basics.ProfitLossCalculatorMiniApp
 
 fun getSp1(cp: Int, pl: Int): Int {
-    return cp * (100 + pl)/100
+	return cp * (100 + pl) / 100
 }
+
 fun getSp2(cp: Int, absPL: Int): Int {
-    return cp + absPL
+	return cp + absPL
 }
 
 fun getCp1(sp: Int, pl: Int): Int {
-    return (sp * 100 .toFloat()/ (100 + pl)).roundToInt()
+	return (sp * 100.toFloat() / (100 + pl)).roundToInt()
 }
+
 fun getCp2(sp: Int, absPL: Int): Int {
-    return sp - absPL
+	return sp - absPL
 }
 
 fun getPl1(cp: Int, sp: Int): Int {
-    return ((sp - cp).toFloat()/ cp * 100).roundToInt()
+	return ((sp - cp).toFloat() / cp * 100).roundToInt()
 }
+
 fun getPl2(cp: Int, absPL: Int): Int {
-    return (absPL.toFloat() / cp * 100).roundToInt()
+	return (absPL.toFloat() / cp * 100).roundToInt()
 }
+
 fun getPl3(sp: Int, absPL: Int): Int {
-    return (absPL.toFloat() / (sp - absPL) * 100).roundToInt()
+	return (absPL.toFloat() / (sp - absPL) * 100).roundToInt()
 }
 
 fun getAbsPL1(cp: Int, sp: Int): Int {
-    return sp - cp
+	return sp - cp
 }
+
 fun getAbsPL2(cp: Int, pl: Int): Int {
-    return cp * pl / 100
+	return cp * pl / 100
 }
+
 fun getAbsPL3(sp: Int, pl: Int): Int {
-    return sp * pl / (100 + pl)
+	return sp * pl / (100 + pl)
+}
 }
 
 fun main() {
